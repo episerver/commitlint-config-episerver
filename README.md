@@ -41,12 +41,14 @@ Commits should adhere to the following format:
 
 <body>
 
+<footer>
+
 <references>
 ```
 
 The following rules apply to the above format:
 
-1. A commit message consists of a header, body, and references.
+1. A commit message consists of a header, body, footer, and references.
 1. The header is the only mandatory part of the commit message.
 1. The header must have a type and a subject; scope is optional.
 1. Scope should be surrounded by parenthesis; otherwise they are omitted.
@@ -69,3 +71,13 @@ Must be one of the following:
 | refactor | A code change that neither fixes a bug or adds a feature |
 | release | Create a release commit |
 | test | Add missing tests |
+
+### Footer
+
+The footer should only contain information about breaking changes and should use the following format:
+
+```
+BREAKING CHANGE: <description>
+```
+
+The description should be a concise explanation of the breaking change. The body can be omitted if the breaking change description and subject give enough information to understand the commit.
