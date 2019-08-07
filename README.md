@@ -52,6 +52,7 @@ The following rules apply to the above format:
 1. Scope should be surrounded by parenthesis; otherwise they are omitted.
 1. The type and scope should be lower case.
 1. The subject and body should be sentence case.
+1. The subject should not end with a dot.
 1. The header line is limited to 72 characters.
 1. Any other line should be wrapped at 100 characters.
 
