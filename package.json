@@ -1,6 +1,6 @@
 {
     "name": "@episerver/commitlint-config",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Shareable commitlint config enforcing the episerver commit convention",
     "main": "index.js",
     "repository": "github:ben-mckernan/commitlint-config-episerver",
