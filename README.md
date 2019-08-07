@@ -59,10 +59,12 @@ The following rules apply to the above format:
 
 Must be one of the following:
 
-- chore: Build process or auxiliary tool changes
-- docs: Documentation only changes
-- feat: A new feature
-- fix: A bug fix
-- refactor: A code change that neither fixes a bug or adds a feature
-- release: Create a release commit
-- test: Add missing tests
+| Type | Description |
+| --- | --- |
+| chore | Build process or auxiliary tool changes |
+| docs | Documentation only changes |
+| feat | A new feature |
+| fix | A bug fix |
+| refactor | A code change that neither fixes a bug or adds a feature |
+| release | Create a release commit |
+| test | Add missing tests |
