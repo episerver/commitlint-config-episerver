@@ -21,6 +21,7 @@ module.exports = {
                 "fix",
                 "refactor",
                 "release",
+                "revert",
                 "test"
             ]
         ]

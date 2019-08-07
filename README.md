@@ -70,7 +70,12 @@ Must be one of the following:
 | fix | A bug fix |
 | refactor | A code change that neither fixes a bug or adds a feature |
 | release | Create a release commit |
+| revert | Revert a previous commit |
 | test | Add missing tests |
+
+#### Revert
+
+If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
 ### Footer
 
