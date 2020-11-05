@@ -28,7 +28,7 @@ module.exports = {
     },
     parserPreset: {
         parserOpts: {
-            issuePrefixes: ["CMS-", "UI-"]
+            issuePrefixes: ["CMS-", "PUI-"]
         }
     }
 };
